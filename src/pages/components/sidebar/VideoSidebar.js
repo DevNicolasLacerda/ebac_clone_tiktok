@@ -22,7 +22,7 @@ function VideoSidebar({likes, messages, shares}) {
         <p>{ liked ? likes + 1 : likes}</p>
       </div>
       <div className='VideoSidebarOptions'>
-        <ChatIcon fontSize='large' />
+        <ChatIcon fontSize='large'/>
         <p>{ messages }</p>
       </div>
       <div className='VideoSidebarOptions'>
